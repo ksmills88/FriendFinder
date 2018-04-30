@@ -1,17 +1,27 @@
 {
-  "name": "friend-finder",
+  "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://murmuring-headland-70129.herokuapp.com",
   "main": "htmlRoutes.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "node": "^10.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksmills88/FriendFinder.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
-    "path": "^0.12.7"
-  }
+  "bugs": {
+    "url": "https://github.com/ksmills88/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/ksmills88/FriendFinder#readme"
 }
