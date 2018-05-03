@@ -169,7 +169,7 @@
                     </div>
                     <div class="modal-body" id="modalBody">
                         <div id ="matchName"></div>
-                        <div id ="matchId"></div>
+                        <img id ="matchId">
 
 
                     </div>
@@ -236,8 +236,8 @@
 
                     //Need to fix modal so that the image is displaying correctly
                     $("#matchName").text(data.name);
-                    $('#matchImg').attr("src", data.photo);
-                    $('#matchImg').text(data.photo);
+                    $('#matchId').attr("src", data.photo);
+                    // $('#matchId').text(data.photo);
 
                     // Show the modal with the best match 
                     $("#resultsModal").modal('toggle');
